@@ -1,0 +1,7 @@
+Create a program to read from a file "dictionary.txt" where it has two data, separated by a "=", Indonesian and English sequentially.
+You will then display the data from the file.
+Ask for an input. If the input is 1 then you can ask the user to input a pair of Indonesian and English word to add more data. Show the updated data. 
+If the input is 2, sort the data in ascending order according to the Indonesian. Show the updated data.
+If the input is 3, sort the data in descending order according to the Indonesian. Show the updated data.
+If the user input 4, Exit and Save the latest condition of data to "dictionary.txt".
+Let the maximum length of each string to be 50.
