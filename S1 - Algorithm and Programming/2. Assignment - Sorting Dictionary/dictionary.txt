@@ -1,0 +1,9 @@
+kucing=cat
+anjing=dog
+mobil=car
+buku=book
+rumah=house
+babi=pig
+manusia=human
+hidup=life
+besar=big

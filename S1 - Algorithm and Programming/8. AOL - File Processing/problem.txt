@@ -1,0 +1,9 @@
+You have a file “product.txt”, with the data using the following format: id#name#price, for example:
+
+P001#Notebook#7500
+P010#Pencil Box#22500
+…
+
+
+You are asked to create a program to read the file, ask for the input on how many products the user will buy, and for each product, ask the id and quantity (separated by a white space character)
+At the end, calculate how much the total price the user need to pay to the screen.

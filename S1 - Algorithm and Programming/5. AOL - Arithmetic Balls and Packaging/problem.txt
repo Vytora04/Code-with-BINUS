@@ -1,0 +1,13 @@
+The shop sells a ball with diameter of 7 cm. They have boxes of packaging, each with the size of 25 x 25 x 25 (all in cm.
+Please create the algorithm on how to solve the problem , if given input of N (the number of balls that will be bought).
+Please display the output of number of boxes needed to package all the balls.
+
+Input sample
+4
+Output sample
+1
+
+Input sample
+30
+Output sample
+2

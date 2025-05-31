@@ -1,0 +1,3 @@
+food list#We have Burger, Pasta, Steak, and also Sushi
+cough medicine#For cough medicine, we have Bisolvon, Konidin, and also Woods
+flu medicine#For flu, we have Procold, Neosep, and Rhinos
