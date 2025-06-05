@@ -1,0 +1,13 @@
+You are working as a Data Scientist in EGIER, an outdoor equipment manufacturer in Bandung. As a Data Scientist, you have been tasked with processing some data on EGIER warehouse capacity. You are given a set of data that consist of the monthly production of a certain type of bag they produced. The data span from January 2018 to December 2023 is given as M1 to M144. Your supervisor has given you a series of task that needs to be done on the data, as a part or your job.
+
+Problem 1 (LO2 30 points)
+Find the trend on the bag’s production from the data. You must provide a mathematical model that can explain the production’s trend accurately. Since your supervisor want an accurate model, you must avoid any linear approach to build the trend model.
+
+Problem 2 : (LO3 25 points)	
+Since you’ll need to process the data using a computer program, you’ll need to convert the mathematical model from problem #1 to its numerical form (approximation). This is done so that the mathematical model can be calculated by the program easily. Since accuracy is still important, make sure that your conversion is accurate as possible. Provide an explanation to your supervisor about the accuracy of your conversion. The class topic for this question is Introduction to Taylor Series.
+
+Problem 3: (LO3 25 points)
+The warehouse was designed to be able to store a maximum of 25,000 (twenty five thousands) bags at each month. Your supervisor asked you to provide a prediction when do EGIER need to build a new warehouse based on the trend that you have acquired in problem #2. To build a new warehouse, it is predicted that they need at least 13 months. So provide the time when EGIER need to start building their new warehouse. (Hint: this can be approached as a root of equation problem)
+
+Problem 4 : (LO1 20 points)
+Your supervisor want to double check your result. Provide the code that you have used to answer problem #1 to #3. Provide your code as a Google Colab URL or a Python script file (.py extension) in your repository. Please make sure that the file is publicly accessible.

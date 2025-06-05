@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/auth.css">
+    <title>Willify - Join</title>
+</head>
+
+<body>
+    <div class="container">
+        <img src="../assets/back-button.png" alt="Back-button" class="back-button">
+        <div class="forms-container">
+            <div class="signin-signup">
+                <form action="#" class="sign-in-form">
+                    <h2 class="title">Join Again!</h2>
+
+                    <div class="input-field">
+                        <input type="text" placeholder="E-mail (@gmail.com or @outlook.com)" id="email">
+                    </div>
+
+                    <div class="input-field">
+                        <input type="password" placeholder="Password (min. 8 lengths)" id="password">
+                    </div>
+                        <input type="submit" alt="login-button" class="btn solid" value="Login" onclick="validateUserLogin()">
+                    <p class="social-text">or sign in with social platforms</p>
+
+                    <div class="social-media">
+                        <a href="#" class="icon"><img src="../assets/google.png" alt="Google" class="social-icons"></a>
+                        <a href="#" class="icon"><img src="../assets/apple.png" alt="Apple" class="social-icons"></a>
+                        <a href="#" class="icon"><img src="../assets/facebook.png" alt="Facebook" class="social-icons"></a>
+                    </div> 
+                </form>
+
+                <form action="#" class="sign-up-form">
+                    <h2 class="title">Join Now!</h2>
+
+                    <div class="input-field">
+                        <input type="text" placeholder="Name" id="name">
+                    </div>
+
+                    <div class="input-field">
+                        <select id="gender">
+                            <option value="none">(Select Gender)</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+
+                    <div class="input-field">
+                        <input type="text" placeholder="E-mail (@gmail.com or @outlook.com)" id="email">
+                    </div>
+
+                    <div class="input-field">
+                        <input type="password" placeholder="Password (min. 8 lengths)" id="password">
+                    </div>
+
+                    <!-- <input type="submit" class="btn solid" value="Sign up"> -->
+                    <input type="submit" class="btn solid" value="Register" onclick="validateUserRegister()">
+                    <p class="social-text">or sign up with social platforms</p>
+
+                    <div class="social-media">
+                        <a href="#" class="icon"><img src="../assets/google.png" alt="Google" class="social-icons"></a>
+                        <a href="#" class="icon"><img src="../assets/apple.png" alt="Apple" class="social-icons"></a>
+                        <a href="#" class="icon"><img src="../assets/facebook.png" alt="Facebook" class="social-icons"></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3>New here?</h3>
+                    <p>Create an account to become part of Willify!</p>
+                    <button class="btn transparent" id="sign-up-btn">Sign up</button>
+                </div>
+            </div>
+
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>Returning?</h3>
+                    <p>Sign your account to rejoin Willify!</p>
+                    <button class="btn transparent" id="sign-in-btn">Sign in</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/auth.js"></script>
+</body>
+
+</html>
