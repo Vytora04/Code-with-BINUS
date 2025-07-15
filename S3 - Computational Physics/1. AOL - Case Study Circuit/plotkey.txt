@@ -1,0 +1,7 @@
+t = 1
+Ammeter_Isource = 2
+Ammeter_load1 = 3
+Ammeter_load2 = 4
+Ammeter_load3 = 5
+Voltmeter_Vsource = 6
+Voltmeter_diode = 7
